@@ -1,0 +1,17 @@
+{{#each @model.options as |option index|}}
+<div class="form-check">
+    <Input @id={{concat "radio" index}} @type="radio" @name="optradio" @value={{option}} {{on "click" (fn this.logAnswer
+        option @model)}}></Input>
+    <label for={{concat "radio" index}}>{{{option}}}</label>
+</div><br>
+{{/each}}
+{{#if @model.nextQuestion }}
+<LinkTo @route="questions.question" @tagName="button" @model={{@model.nextQuestion}} @class="btn btn-primary btn-block"
+    @replace={{false}} @disabled={{this.enableButton }}>
+    Next</LinkTo>
+{{else}}
+<LinkTo @route="questions.result" @tagName="button" @class="btn btn-warning btn-block" @replace={{false}}
+    @disabled={{this.enableButton}}>
+    Submit</LinkTo>
+{{/if}}
+{{yield}}

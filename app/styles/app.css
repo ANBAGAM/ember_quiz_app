@@ -1,0 +1,19 @@
+.qz-form{
+    text-align: center;
+    margin-top:10%;
+
+}
+.qz-heading{
+    text-align: center;
+    background-color: rgb(112, 143, 245);
+    color: white;
+}
+.qz-ln-btn{
+    display: inline;
+}
+.qz-ln-err{
+    color: red;
+}
+.qz-question{
+    text-align: center;
+}

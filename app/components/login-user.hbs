@@ -1,0 +1,12 @@
+<form class="qz-form">
+    <label for="user-name">Enter your name</label><br>
+    <Input @id="user-name" @type="text" @value={{this.userName}} @autofocus="true"></Input><br>
+    {{#if this.nameError}}
+    <div class="qz-ln-err">
+        <strong>{{this.nameError}}</strong>
+    </div>
+    {{/if}}
+    <br>
+    <button class="btn btn-primary" type="button" id="login-btn" {{on "click" this.logUserInfo}}>Start Game</button>
+</form>
+{{yield}}

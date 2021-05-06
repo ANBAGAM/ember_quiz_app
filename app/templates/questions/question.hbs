@@ -1,0 +1,9 @@
+{{page-title "Question"}}
+<div class="jumbotron text-center">
+    <p><b>Question {{@model.id}}/{{@model.totalQuestions}}</b></p>
+    <div style="text-align: justify;">
+        <p>{{@model.question}}</p>
+        <Options @model={{@model}}></Options>
+    </div>
+</div>
+{{outlet}}

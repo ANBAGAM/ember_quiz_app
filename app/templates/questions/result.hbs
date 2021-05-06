@@ -1,0 +1,13 @@
+{{page-title "Result"}}
+<div class="jumbotron text-center">
+    <h1>Results</h1>
+    <p>Number of Correct Answer : {{@model.correctAnswer}}</p>
+    <br>
+    <p>Number of Wrong Answer : {{@model.wrongAnswer}}</p>
+    <br>
+    <p>Number of Unattempted Question : {{@model.notAttempted}}</p>
+    <br>
+    <FinalButton></FinalButton>
+</div>
+
+{{outlet}}

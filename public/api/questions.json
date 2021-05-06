@@ -1,0 +1,111 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "Inside which HTML element do we put the JavaScript?",
+            "options": [
+                "&lt;script&gt;",
+                "&lt;javascript&gt;",
+                "&lt;scripting&gt;",
+                "&lt;js&gt;"
+            ],
+            "answer": "&lt;script&gt;"
+        },
+        {
+            "id": 2,
+            "question": "Where is the correct place to insert a JavaScript?",
+            "options": [
+                "The &lt;head&gt; section",
+                "The &lt;body&gt; section",
+                "Both the &lt;head&gt; section and the &lt;body&gt; section are correct"
+            ],
+            "answer": "Both the &lt;head&gt; section and the &lt;body&gt; section are correct"
+        },
+        {
+            "id": 3,
+            "question": "Which type of JavaScript language is ___",
+            "options": [
+                "Object-Oriented",
+                "Object-Based",
+                "Assembly-language",
+                "High-level"
+            ],
+            "answer": "Object-Based"
+        },
+        {
+            "id": 4,
+            "question": "Which of the following is not a valid JavaScript variable name?",
+            "options": [
+                "2names",
+                " _first_and_last_names",
+                "FirstAndLast",
+                "None of the above"
+            ],
+            "answer": "2names"
+        },
+        {
+            "id": 5,
+            "question": "How does JavaScript store dates in a date object?",
+            "options": [
+                "The number of milliseconds since January 1st, 1970",
+                "The number of days since January 1st, 1900",
+                "The number of seconds since Netscape's public stock offering",
+                "None of the above"
+            ],
+            "answer": "The number of milliseconds since January 1st, 1970"
+        },
+        {
+            "id": 6,
+            "question": "What does the <noscript> tag do?",
+            "options": [
+                "Enclose text to be displayed by non-JavaScript browsers.",
+                "Prevents scripts on the page from executing.",
+                "Describes certain low-budget movies.",
+                "None of the above"
+            ],
+            "answer": "Enclose text to be displayed by non-JavaScript browsers."
+        },
+        {
+            "id": 7,
+            "question": "JavaScript is interpreted by _________",
+            "options": [
+                "Client",
+                "Server",
+                "Object",
+                "None of the above"
+            ],
+            "answer": "Client"
+        },
+        {
+            "id": 8,
+            "question": "Which type of JavaScript language is ___",
+            "options": [
+                "Object-Oriented",
+                "Object-Based",
+                "Assembly-language",
+                "High-level"
+            ],
+            "answer": "Object-Based"
+        },
+        {
+            "id": 9,
+            "question": "What is mean by (this) keyword in javascript?",
+            "options": [
+                "It refers current object",
+                "It referes previous object",
+                "It is variable which contains value",
+                "None of the above"
+            ],
+            "answer": "It refers current object"
+        },
+        {
+            "id": 10,
+            "question": "Can you assign a anonymous function to a variable?",
+            "options": [
+                "true",
+                "false"
+            ],
+            "answer": "true"
+        }
+    ]
+}
