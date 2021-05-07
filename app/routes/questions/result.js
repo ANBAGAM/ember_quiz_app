@@ -11,8 +11,14 @@ export default class ResultRoute extends Route {
             correctAnswer: 0,
             notAttempted: 0,
             wrongAnswer: 0,
+            isAutosubmitted: false
         }
         console.log(data.length);
+
+        if (sessionStorage.getItem("autoSubmit") && sessionStorage.getItem("autoSubmit") === "true") {
+            results.isAutosubmitted = true;
+        }
+
         if (data.length > 0) {
             for (let i = 0; i < data.length; i++) {
                 results.correctAnswer = data.objectAt(i).status === "T" ? results.correctAnswer + 1 : results.correctAnswer;
