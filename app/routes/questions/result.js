@@ -14,7 +14,7 @@ export default class ResultRoute extends Route {
             isAutosubmitted: false
         }
         console.log(data.length);
-
+        sessionStorage.setItem("isCompleted", true);
         if (sessionStorage.getItem("autoSubmit") && sessionStorage.getItem("autoSubmit") === "true") {
             results.isAutosubmitted = true;
         }

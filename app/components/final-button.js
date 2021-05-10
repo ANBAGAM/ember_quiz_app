@@ -9,7 +9,8 @@ export default class FinalButtonComponent extends Component {
 
     @action
     playAgain() {
-        sessionStorage.setItem("autoSubmit",false);
+        sessionStorage.setItem("autoSubmit", false);
+        sessionStorage.setItem("isCompleted", false);
         this.router.transitionTo('/questions/1');
     }
     @action
